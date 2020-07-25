@@ -1,0 +1,50 @@
+div.paper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-family: QuickSand, Roboto, Arial, sans-serif;
+    color:rgb(82, 82, 82);
+    transition: background-color 0.2s;
+}
+div.paper .title{
+    font-size: 30px;
+    text-align: center;
+}
+div.paper .author{
+    font-size: 20px;
+    text-align: center;
+}
+div.paper.odd{
+    background-color: rgb(231, 231, 231);
+}
+div.paper.even{
+    background-color: rgb(216, 216, 216);
+}
+div.paper:hover{
+    cursor: pointer;
+    background-color: rgb(176, 193, 226);
+}
+@media screen and (max-width: 1200px){
+    div.paper{
+        height: 75px;
+    }
+    div.paper .title{
+        font-size: 23px;
+    }
+    div.paper .author{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 600px){
+    div.paper{
+        height: 70px;
+    }
+    div.paper .title{
+        font-size: 15px;
+    }
+    div.paper .author{
+        font-size: 11px;
+    }
+}

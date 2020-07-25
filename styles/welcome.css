@@ -1,0 +1,91 @@
+div#welcomeBox{
+    background-color: rgb(228, 228, 228);
+    background-image: url("../images/bg.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    height: 800px;
+}
+div#welcomeBox.qLearning{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.438),rgba(0, 0, 0, 0.438)), url("../images/qlearning.png");
+}
+div#welcomeBox.policyGradient{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.438),rgba(0, 0, 0, 0.438)), url("../images/policygradient.png");
+}
+div#welcomeBox.evolutionaryStrategy{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.438),rgba(0, 0, 0, 0.438)), url("../images/evolutionarystrategy.png");
+}
+div#welcomeBox.hierarchy{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.438),rgba(0, 0, 0, 0.438)), url("../images/hierarchy.png");
+}
+div#welcomeBox.multiagent{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.438),rgba(0, 0, 0, 0.438)), url("../images/multiagent.png");
+}
+div#welcomeBox.architecture{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.438),rgba(0, 0, 0, 0.438)), url("../images/architecture.png");
+}
+div#welcomeBox.curiosity{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.438),rgba(0, 0, 0, 0.438)), url("../images/curiosity.png");
+}
+div#welcomeBox.analysis{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.438),rgba(0, 0, 0, 0.438)), url("../images/analysis.png");
+}
+div#welcomeBox.safety{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.438),rgba(0, 0, 0, 0.438)), url("../images/safety.png");
+}
+div#welcomeBox.transfer{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.438),rgba(0, 0, 0, 0.438)), url("../images/transfer.png");
+}
+div#welcomeBox .primary{
+    position: relative;
+    top: 490px;
+    margin-left: 20px;
+    color:rgba(255, 255, 255, 0);
+    text-shadow: 0 0 20px rgb(102, 102, 102,0);
+    transition: color 0.3s, top 0.5s, text-shadow 0.3s;
+}
+div#welcomeBox .secondary{
+    position: relative;
+    top: 460px;
+    margin-left: 40px;
+    color:rgba(255, 255, 255, 0);
+    text-shadow: 0 0 10px rgb(102, 102, 102,0);
+    transition: color 0.3s, top 0.5s, text-shadow 0.3s;
+}
+div#welcomeBox #logo{
+    font-family: QuickSand, Roboto, Arial, sans-serif;
+    font-weight: 200;
+    position: relative;
+    top: 20px;
+    margin-left: 16px;
+    color: white;
+    font-size: 25px;
+}
+@media screen and (max-width: 1200px){
+    div#welcomeBox .primary{
+        font-size: 120px;
+    }
+    div#welcomeBox .secondary{
+        font-size: 20px;
+    }
+    div#welcomeBox{
+        height: 700px;
+    }
+}
+@media screen and (max-width: 600px){
+    div#welcomeBox .primary{
+        font-size: 60px;
+        margin-left: 20px;
+    }
+    div#welcomeBox .secondary{
+        padding-top: 20px;
+        font-size: 12px;
+        margin-left: 30px;
+    }
+    div#welcomeBox{
+        height: 600px;
+    }
+    div#welcomeBox #logo{
+        font-size: 20px;
+    }
+}

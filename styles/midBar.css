@@ -1,0 +1,15 @@
+div#midBar{
+    height: 80px;
+    background-color: rgb(231, 231, 231);
+    box-shadow: 0 0 20px rgb(136, 136, 136);
+}
+@media screen and (max-width: 1200px){
+    div#midBar{
+        height: 60px;
+    }
+}
+@media screen and (max-width: 600px){
+    div#midBar{
+        height: 40px;
+    }
+}

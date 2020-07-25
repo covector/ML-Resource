@@ -1,0 +1,29 @@
+div#topBar{
+    background-color: rgb(233, 233, 233);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    top: -80px;
+    transition: top 0.3s;
+    box-shadow: 0 0 20px rgb(136, 136, 136);
+}
+div#topBar div{
+    font-family: QuickSand, Roboto, Arial, sans-serif;
+    font-weight: 200;
+    color: rgb(156, 156, 156);
+    font-size: 25px;
+    text-align: center;
+}
+@media screen and (max-width: 600px){
+    div#topBar div{
+        font-size: 20px;
+    }
+    div#topBar{
+        height: 50px;
+        padding-left: 15px;
+    }
+}
