@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="../styles/main.css">
     <link rel="stylesheet" href="../styles/topBar.css">
     <link rel="stylesheet" href="../styles/welcome.css">
-    <link rel="stylesheet" href="paper.css">
+    <link rel="stylesheet" href="../styles/paper.css">
     <script src="../script/scroll.js"></script>
+    <script src="../script/pdfshow.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
@@ -19,7 +20,7 @@
 <body>
     <div id="topBar"><div>Hierarchy</div></div>
     <div id="welcomeBox" class="hierarchy"><div id="logo">Hierarchy</div><div class="primary" id="welcomePrimary">Hierarchy</div><div class="secondary" id="welcomeSecondary">Hierarchical RL expands the action space by including abstract actions that are temporally extended.</div></div>
-    <a href="../hierarchy/options.pdf" target="_blank"><div class="paper odd"><div class="title">Learning Options in Reinforcement Learning</div><div class="author">Stolle and Precup</div></div></a>
+    <div class="paper odd" onclick="Show('../hierarchy/options.pdf')"><div class="title">Learning Options in Reinforcement Learning</div><div class="author">Stolle and Precup</div></div>
     <a href="../hierarchy/intra option learning.pdf" target="_blank"><div class="paper even"><div class="title">Intra-Option Learning about Temporally Abstract Actions</div><div class="author">Sutton et al.</div></div></a>
     <a href="../hierarchy/nn and options.pdf" target="_blank"><div class="paper odd"><div class="title">Hierarchical Reinforcement Learning with Options and United Neural Network Approximation</div><div class="author">Kuzmin and Panov</div></div></a>
     <a href="../hierarchy/option critic.pdf" target="_blank"><div class="paper even"><div class="title">The Option-Critic Architecture</div><div class="author">Bacon et al.</div></div></a>
@@ -30,6 +31,6 @@
     <a href="../hierarchy/hams.pdf" target="_blank"><div class="paper odd"><div class="title">Reinforcement Learning with Hierarchies of Machines</div><div class="author">Parr and Russell</div></div></a>
     <a href="../hierarchy/deep skill chaining.pdf" target="_blank"><div class="paper even"><div class="title">Option Discovery Using Deep Skill Chaining</div><div class="author">Bagaria and Konidaris</div></div></a>
     <a href="../hierarchy/option and intrinsic.pdf" target="_blank"><div class="paper odd"><div class="title">Hierarchical Deep Reinforcement Learning: Integrating Temporal Abstraction and Intrinsic Motivation</div><div class="author">Kulkarni and Narasimhan et al.</div></div></a>
-
+    <iframe src="" width="99%" height="0px" id="pdf"></iframe>
 </body>
 </html>
