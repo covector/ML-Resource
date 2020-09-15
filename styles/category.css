@@ -88,13 +88,15 @@ div.category div.secondary.left{
     padding-left: 10%;
     text-align: right;
 }
-div.category div.button.right{
+div.category div.contain.right{
     margin-left: 50px;
     margin-right: auto;
+    width: 0px;
 }
-div.category div.button.left{
+div.category div.contain.left{
     margin-right: 50px;
     margin-left: auto;
+    width: 160px;
 }
 @media screen and (max-width: 1200px){
     div.category div.textBox{
@@ -118,6 +120,9 @@ div.category div.button.left{
     div.category{
         height: 650px;
     }
+    div.category div.contain.left{
+        width: 106px;
+    }
 }
 @media screen and (max-width: 600px){
     div.category div.textBox{
@@ -140,5 +145,8 @@ div.category div.button.left{
     }
     div.category{
         height: 400px;
+    }
+    div.category div.contain.left{
+        width: 84px;
     }
 }
