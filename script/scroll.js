@@ -24,6 +24,6 @@ window.onscroll = function() {
     }
     prevScrollPos = window.pageYOffset;
 }
-window.onload = function(){
+function setUpBar(){
     setTimeout(()=>{window.onscroll();},100);
 }

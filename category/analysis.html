@@ -11,16 +11,15 @@
     <link rel="stylesheet" href="../styles/welcome.css">
     <link rel="stylesheet" href="../styles/paper.css">
     <script src="../script/scroll.js"></script>
+    <script src="../script/paperList.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
     <title>Anaylsis</title>
 </head>
-<body>
+<body id="page" onload="loadPaper('analysis')">
     <div id="topBar"><div>Anaylsis</div></div>
     <div id="welcomeBox" class="analysis"><div id="logo">Anaylsis</div><div class="primary" id="welcomePrimary">Anaylsis</div><div class="secondary" id="welcomeSecondary">The mathematical analysis for convergence and statistical properties.</div></div>
-    <a href="../analysis/func appr converge to a region.pdf" target="_blank"><div class="paper odd"><div class="title">Reinforcement Learning with Function Approximation Converges to a Region</div><div class="author">Geoffrey Gordon</div></div></a>
-    <a href="../analysis/td learning w func appr.pdf" target="_blank"><div class="paper even"><div class="title">An Analysis of Temporal-Difference Learning with Function Approximation</div><div class="author">Tsitsiklis and Roy</div></div></a>
-    <a href="../analysis/Bias_and_Variance_Approximation_in_Value_Function_.pdf" target="_blank"><div class="paper odd"><div class="title">Bias and Variance Approximation in Value Function Estimates</div><div class="author">Mannor et al.</div></div></a>
+    <div id="before"></div>
 </body>
 </html>
