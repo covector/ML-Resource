@@ -41,7 +41,7 @@ paperL["multi agent"] = [
     ["alpha go", "Mastering the Game of Go without Human Knowledge", "Silver et al."], 
     ["open ai self play", "Emergent Complexity via Multi-Agent Competition", "Bansal et al."], 
     ["open ai emergent tool use", "Emergent Tool Use From Multi-Agent Autocurricula", "OpenAI"], 
-    ["self play framework", "A Generalized Framework for Self-Play Training", "Hernandez et al."]
+    ["self play framework", "A Generalized Framework for Self-Play Training", "Hernandez et al."],
     ["adversarial policy", "Adversarial Policies: Attacking Deep Reinforcement Learning", "Gleave et al."]
 ];
 paperL["architecture"] = [
